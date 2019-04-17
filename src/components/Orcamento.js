@@ -26,8 +26,7 @@ export default class Orcamento extends React.Component {
           <Text style={styles.viewTitleText}>Orçamento</Text>          
         </View>
 
-        <View style={styles.viewMain}>
-          <Text style={styles.SubTitle}>Adicione produto</Text>
+        <View style={styles.viewMain}>          
           <TextInput style={styles.imputBox}
             placeholder="Nome do cliente"
            
