@@ -27,7 +27,7 @@ export default class Orcamento extends React.Component {
         </View>
 
         <View style={styles.viewMain}>          
-          <TextInput style={styles.imputBox}
+          <TextInput style={styles.imputBoxCliente}
             placeholder="Nome do cliente"
            
            />        
@@ -68,6 +68,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#A9C959',
 
 
+  },
+  imputBoxCliente: {
+    marginTop: 20,
+    borderRadius: 5,
+    height: 40,
+    marginHorizontal: 20,
+    backgroundColor: 'white',  
   },
   imputBox: {
     marginBottom: 10,
